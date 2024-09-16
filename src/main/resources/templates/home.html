@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>eRegistrar - Home</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<header>
+    <h1>eRegistrar</h1>
+    <nav>
+        <ul>
+            <li><a th:href="@{/students}">List of Students</a></li>
+            <li><a th:href="@{/students/register}">Register New Student</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h2>Welcome to the eRegistrar System</h2>
+    <p>Use the navigation menu to view students or register a new student.</p>
+</main>
+<footer>
+    <p>&copy; 2024 eRegistrar</p>
+</footer>
+</body>
+</html>
